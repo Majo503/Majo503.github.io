@@ -207,18 +207,8 @@ a:hover {
     display: inline-block;
 }
 
-audio {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    max-width: 400px;
-    height: 40px;    
-    border-radius: 5px; 
-    background-color: #f2f2f2; 
-}
-
 #trabajos a {
-    display: inline-block;
+    display: block; /* Cambiado a block */
     margin-top: 10px;
     color: #3498db;
     text-decoration: none;
@@ -227,6 +217,9 @@ audio {
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto; /* Para centrar el botón */
 }
 
 #trabajos a:hover {
